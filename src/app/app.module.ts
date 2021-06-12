@@ -8,11 +8,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared/shared.module';
 import { HomepageComponent } from './home/homepage/homepage.component';
+import { CurriculoComponent } from './home/curriculo/curriculo.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
+    CurriculoComponent,
+
+
   ],
   imports: [
     BrowserModule,
