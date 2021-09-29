@@ -3,6 +3,7 @@
     <div class="col-6">
       <div class="border border-secundary border-2 p-5">
         <h6>Type the value in dollar to convert:</h6>
+        <span>Digite o valor em dolar a ser convertido</span>
       <hr>
 
         <div class="formulario">
@@ -21,10 +22,14 @@
     </div>
 
     <div class="col-6" *ngIf="visibilidadeValorConvertido">
-      <h6>Converted value</h6>
+      <h6>Converted value:</h6>
+      <span>Valor convertido:</span>
       <hr>
       <h1 class="text-primary">{{ valorConvertido }}</h1>
     </div>
 
+  </div>
+  <div class="image">
+    <img src="../../../assets/pngwing.com.png" alt="Logo">
   </div>
 </div>
